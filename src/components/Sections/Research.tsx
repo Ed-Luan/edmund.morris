@@ -1,9 +1,9 @@
 import {FC, memo} from 'react';
 
-import {otherActivities, projects, publications, SectionId, supervision, } from '../../data/data';
+import {otherActivities, projects, publications, SectionId, supervision,} from '../../data/data';
+import PublicationItems from '../Layout/PublicationItems';
 import Section from '../Layout/Section';
 import SSSection from '../Layout/SSSection';
-import PublicationItems from '../Layout/PublicationItems';
 import TimelineItem from '../Layout/TimelineItem';
 
 
