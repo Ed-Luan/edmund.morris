@@ -215,12 +215,12 @@ export const otherActivities: TimelineItem[] = [
 export const publications: PublicationItems[] = [
 {
     title: 'Structure and properties of nitrocellulose: approaching 200 years of research',
-    author: <i>Edmund Morris, Colin R Pulham, Carole A Morrison </i>,
+    author: <p>Edmund Morris, Colin R Pulham, Carole A Morrison </p>,
     publisher: 'RSC advances 13 (46), 32321-32333'
     },
   {
     title: 'SERS of Trititanate Nanotubes: Selective Enhancement of Catechol Compounds',
-    author: <i>Ruochen Liu, Edmund Morris, Xiaorong Cheng, Eric Amigues, Kim Lau, Baekman Kim, Yuanhang Liu, Zhipeng Ke, Sharon E Ashbrook, Michael Bühl, Graham Dawson </i>,
+    author: <p>Ruochen Liu, Edmund Morris, Xiaorong Cheng, Eric Amigues, Kim Lau, Baekman Kim, Yuanhang Liu, Zhipeng Ke, Sharon E Ashbrook, Michael Bühl, Graham Dawson </p>,
     publisher: 'ChemistrySelect 3 (28), 8338-8343'
     },
  ];
