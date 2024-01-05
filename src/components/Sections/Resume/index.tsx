@@ -6,7 +6,6 @@ import {SkillGroup} from './Skills';
 import SSSection from '../../Layout/SSSection';
 import TimelineItem from '../../Layout/TimelineItem';
 
-
 const Resume: FC = memo(() => {
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
