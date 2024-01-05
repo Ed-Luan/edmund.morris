@@ -9,7 +9,7 @@ const PublicationItems: FC<{item: PublicationItems}> = memo(({item}) => {
       <div className="flex flex-col pb-4">
         <h2 className="text-xl font-bold">{title}</h2>
           {author}
-          {publisher}
+          <i>{publisher}</i>
         </div>
       </div>
   );
