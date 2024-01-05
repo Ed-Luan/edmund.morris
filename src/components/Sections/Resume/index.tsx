@@ -1,9 +1,9 @@
 import {FC, memo} from 'react';
 
 import {education, experience, SectionId, skills} from '../../../data/data';
+import {SkillGroup} from './Skills';
 import Section from '../../Layout/Section';
 import SSSection from '../../Layout/SSSection';
-import {SkillGroup} from './Skills';
 import TimelineItem from '../../Layout/TimelineItem';
 
 const Resume: FC = memo(() => {
