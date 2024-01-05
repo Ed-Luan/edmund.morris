@@ -1,5 +1,5 @@
-import {FC, memo} from 'react';
 import dynamic from 'next/dynamic';
+import {FC, memo} from 'react';
 
 import About from '../components/Sections/About';
 import Contact from '../components/Sections/Contact';
