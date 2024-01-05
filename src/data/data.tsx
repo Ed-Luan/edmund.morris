@@ -1,8 +1,6 @@
 import {
-  AcademicCapIcon,
-//   CalendarIcon,
   DownloadIcon,
-//   FlagIcon,
+  MailIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -15,8 +13,6 @@ import profilepic from '../images/edmund_profile_photo.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   HomepageMeta,
   PublicationItems,
@@ -57,7 +53,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a UK based PhD student, who is going to start a PostDoctoral project soon.
+        I'm a UK based PhD student, who is going to start a PostDoctoral project soon. Please contact me with email <b>edmund.morris@ed.ac.uk</b>
       </p>
 {/*       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg"> */}
 {/*         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>, */}
@@ -73,11 +69,6 @@ export const heroData: Hero = {
       primary: true,
       Icon: DownloadIcon,
     },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
   ],
 };
 
@@ -89,10 +80,10 @@ export const aboutData: About = {
   description: `I am a A current PhD candidate at the University of Edinburgh working towards determining the crystal structure of nitrocellulose, a material with many modern uses despite being discovered almost 200 years ago. This has helped me develop connections with industry, UK rocket propellant manufacturers, and collaborations
  with other academic groups in biochemistry etc. Upon graduation, I hope to continue working on macromolecules especially naturally derived materials or biomacromolecules. I believe my experience with fibre and small-angle X-ray diffraction as well as my strong chemistry background puts me well placed to further develop rigorous models of poorly understood materials.`,
   aboutItems: [
+    {label: 'Employment', text: 'University of Edinburgh', Icon: OfficeBuildingIcon},
+    {label: 'Email', text: 'edmund.morris@ed.ac.uk', Icon: MailIcon},
     {label: 'Location', text: 'Edinburgh, UK', Icon: MapIcon},
     {label: 'Interests', text: 'Reading, Jogging, Hiking, Cooking, DIY', Icon: SparklesIcon},
-    {label: 'Employment', text: 'University of Edinburgh', Icon: OfficeBuildingIcon},
-    {label: 'Study', text: 'University of Edinburgh', Icon: AcademicCapIcon},
   ],
 };
 
@@ -226,31 +217,10 @@ export const publications: PublicationItems[] = [
  ];
 
 /**
- * Contact section
- */
-
-export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'My working time is 9 am - 5pm, Monday - Friday.',
-  items: [
-    {
-      type: ContactType.Email,
-      text: 'edmund.morris@ed.ac.uk',
-      href: 'edmund.morris@ed.ac.uk',
-    },
-    {
-      type: ContactType.LinkedIn,
-      text: 'Edmund Morris',
-      href: 'https://www.linkedin.com/in/edmundamorris/',
-    },
-  ],
-};
-
-/**
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'GoogleScholar', Icon: GoogleScholarIcon, href: 'https://scholar.google.com/citations?user=3fL8s8IAAAAJ&hl=en'},
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Ed-Luan/'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/edmundamorris/'},
-];
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Ed-Luan/'},
+
+  ];
